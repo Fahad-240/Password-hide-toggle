@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .password-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .toggle-icon {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+
+        .pswrd {
+            padding: 17px;
+            width: 400px;
+            font-size: 18px;
+        }
+        h1{
+            font-family: sans-serif;
+            margin-top: 20px;
+        }
+        p{
+            width: 50%;
+            font-size: 18px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Password Hide and Un-hide</h1>
+    <div class="password-container">
+        <input class="pswrd" type="password" id="password" placeholder="Enter your password">
+        <span id="toggleIcon" class="toggle-icon">👁️</span>
+    </div>
+    <p>To create a password input field that allows users to toggle the visibility of their password by clicking an icon, a combination of HTML, CSS, and JavaScript can be used. The input field is wrapped within a container, and an icon is positioned inside it using CSS. When the icon is clicked, JavaScript handles the event by changing the type attribute of the input field from password to text or vice versa, allowing the user to show or hide their password. Additionally, the icon can be updated to indicate whether the password is currently visible or hidden, providing a user-friendly experience. This approach enhances the input field's usability while maintaining security.</p>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
